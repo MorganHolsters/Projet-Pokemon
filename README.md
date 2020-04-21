@@ -18,7 +18,7 @@ Nous désirons une page web simulant un combat pokémon avec possibilité de sau
 ```
 ## Implémentation détaillée
 ### Implémentation: approche technique
-```
-1.*backend* 
-```
+1.*backend*
+
+
 
