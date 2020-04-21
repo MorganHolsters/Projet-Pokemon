@@ -7,7 +7,7 @@ Nous désirons une page web simulant un combat pokémon avec possibilité de sau
 ### Fonctionnalités principales
 ```
 .Une page présentant le jeu et ses règles
-.Possibilité de choisir son nom 
+.Possibilité de choisir le nom du joueur 
 .Une page de combat de Pokémon permettant de choisir son attaque
 .Une page de fin de partie victoire ou défaite
 ```
@@ -18,7 +18,27 @@ Nous désirons une page web simulant un combat pokémon avec possibilité de sau
 ```
 ## Implémentation détaillée
 ### Implémentation: approche technique
-1.*backend*
+1.*backend*: Une base de donée permettant de mémoriser les Pokémon et les joueurs
+   Une table uilisateurs
+      reprenant les champs du formulaire (nom, prénom, sexe, language préféré, mdp, victoire, défaite)
+   Une table Pokémon
+      avec les champs id, nom, sexe, pv_totaux
+   table attaques
+      avec les champs id, nomattq, dégats 
+2.*backend*: Un serveur web capable de proposer les pages html, js et css ainsi que de proposer des webservices 
+3.*backend*: 
+   -Un webservice capable d'envoyer et de recevoir des données utilisateurs 
+       retour: varchar
+       nom: get_user_info
+       paramètres: in username, in password
+   -Un webservice capable d'envoyer les nom et les pv totaux du Pokémon
+       nom: get_Pokémon
+       paramètres: in nomPokémon,in pvTotaux
+   -Un webservice capable de mettre à jour un tableau de scores
+       retour: int
+       paramètre: tinyint
+       nom: get_score
+   -Un webservice
 
 
 
