@@ -43,7 +43,7 @@ Nous désirons une page web simulant un combat pokémon avec possibilité de sau
        paramètre: in nom, in dégats
        nom: get_attaques
 4.frontend:
-    - une page web (html, css) de présentation
+    - une page web (html, css, js) de présentation
     - une page web (html, css, js) de formulaire permettant d'appeler des webservices et de traiter les réponses qui propose une interface utilisateur pour
         -demander un nom
         -demander un mod de passe
@@ -55,6 +55,6 @@ Nous désirons une page web simulant un combat pokémon avec possibilité de sau
         -afficher la zone de combat, les pokémons, le menu d'ordre et le nom d'utilisateur
         -modifier les pv des pokémon
         -stocker victoires/défaites
-    -une page web (html, css) de fin permettant d'appeler  un webservice, qui propose une interface utilisateur pour:
+    -une page web (html, css, js) de fin permettant d'appeler  un webservice, qui propose une interface utilisateur pour:
         -afficher les scores du joueur
       
